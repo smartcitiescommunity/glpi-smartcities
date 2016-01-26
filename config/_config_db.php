@@ -14,7 +14,7 @@ define('DB_NAME',getenv('OPENSHIFT_GEAR_NAME'));
                 
  var $dbpassword= '.DB_PASS.';
                 
- var $dbdefault	= 'glpi';
+ var $dbdefault	= '.OPENSHIFT_GEAR_NAME.';
                 
  } 
 ?>
